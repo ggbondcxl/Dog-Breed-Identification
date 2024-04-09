@@ -1,0 +1,8 @@
+# Data
+dataset: dogbreedidentification331
+
+in_channels: 3
+x_h: 331
+x_w: 331
+img_size: 331
+num_classes: 120

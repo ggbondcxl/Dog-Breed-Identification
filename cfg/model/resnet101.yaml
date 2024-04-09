@@ -1,0 +1,11 @@
+include: /risk1/chengxilong/dog_breed_identificatiopn/cfg/model/base.yaml
+
+model: resnet101
+
+optim: Adam
+optim_args:
+  lr: 0.0001
+lr_sched: StepLR
+lr_sched_args:
+  gamma: 1
+  step_size: 20

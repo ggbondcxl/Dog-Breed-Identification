@@ -1,0 +1,8 @@
+# Training
+batch_size: 64
+device: cuda
+max_train_steps: 200
+
+
+
+ckpt_interval: 10
